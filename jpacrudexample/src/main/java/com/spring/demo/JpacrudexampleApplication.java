@@ -23,7 +23,7 @@ public class JpacrudexampleApplication {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
 		return runner -> {
 			// createStudent(studentDAO);
-			createMultipleStudent(studentDAO);
+			createMultipleStudent(studentDAO); 
 			//readStudents(studentDAO);
 			//queryForStudents(studentDAO);
 			 //queryForStudentLastName(studentDAO);
